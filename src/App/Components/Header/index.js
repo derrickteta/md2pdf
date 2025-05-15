@@ -6,7 +6,7 @@ const Header = ({ className }) => {
     // get the file name
     let candidateTitle = "";
     const previewEl = document.querySelector(".preview");
-    const candidateTitleEl = previewEl.querySelector("h1");
+    //const candidateTitleEl = previewEl.querySelector("h1");
     //if (candidateTitleEl) {
       //candidateTitle = candidateTitleEl.innerText;
 
