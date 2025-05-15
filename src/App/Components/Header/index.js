@@ -7,8 +7,8 @@ const Header = ({ className }) => {
     let candidateTitle = "";
     const previewEl = document.querySelector(".preview");
     const candidateTitleEl = previewEl.querySelector("h1");
-    if (candidateTitleEl) {
-      candidateTitle = candidateTitleEl.innerText;
+    //if (candidateTitleEl) {
+      //candidateTitle = candidateTitleEl.innerText;
 
       // do the effect change the title
       const currentTitle = document.title;
@@ -17,7 +17,7 @@ const Header = ({ className }) => {
         // schedule resume back in next frame
         document.title = currentTitle;
       });
-    }
+    //}
     window.print();
   };
   return (
